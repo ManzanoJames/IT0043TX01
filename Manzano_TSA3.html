@@ -1,220 +1,250 @@
 <!DOCTYPE html>
-
 <html>
+  <style> 
+  td {
+    text-align: center;
+  }
+  </style>
     <body>
         <form>
             <center>
-            <label for="pokedex">National Dex:</label>
-            <input type="text" id="pokedex" name="pokedex"><br><br>
+                <label for="pokedex">National Dex:</label>
+                <input type="number" type="min0" id="pokedex" name="pokedex"><br><br>
 
-            <label for="pokedex">Generation 1 </label>
-            <input type="radio" name="gen" id="generation"> </input>
+                <label for="pokedex">Generation 1 </label>
+                <input type="radio" name="gen" id="generation"> </input>
 
-            <label for="pokedex">Generation 2 </label>
-            <input type="radio" name="gen" id="generation" > </input>
+                <label for="pokedex">Generation 2 </label>
+                <input type="radio" name="gen" id="generation" > </input>
 
-            <label for="pokedex">Generation 3 </label>
-            <input type="radio" name="gen" id="generation"> </input>
+                <label for="pokedex">Generation 3 </label>
+                <input type="radio" name="gen" id="generation"> </input>
 
-            <label for="pokedex">Generation 4 </label>
-            <input type="radio"name="gen" id="generation"> </input>
+                <label for="pokedex">Generation 4 </label>
+                <input type="radio"name="gen" id="generation"> </input>
 
-            <label for="pokedex">Generation 5 </label>
-            <input type="radio"name="gen" id="generation"> </input>
+                <label for="pokedex">Generation 5 </label>
+                <input type="radio"name="gen" id="generation"> </input>
 
-            <label for="pokedex">Generation 6 </label>
-            <input type="radio"name="gen" id="generation"> </input>
+                <label for="pokedex">Generation 6 </label>
+                <input type="radio"name="gen" id="generation"> </input>
 
-            <label for="pokedex">Generation 7 </label>
-            <input type="radio"name="gen" id="generation"> </input>
-            
-            <label for="pokedex">Generation 8 </label>
-            <input type="radio"name="gen" id="generation"> </input>
-
-            <label for="pokedex">Generation 9 </label>
-            <input type="radio"name="gen" id="generation"> </input><br><br>
-            
-            <label for="pokemon">  Pokemon Name: </label>
-            <input type="text" name="Pokemon" id="generation"> </input><br><br>
-
-            <label for="image"> Choose image: </label>
-            <input type="file" id="myFile" name="filename"> <br><br>
-            
-            <label for="Type">Type 1:</label>
-            <input type="text" id="type1" name="Type1">
-
-            <label for="Type">Type 2:</label>
-            <input type="text" id="type2" name="Type2"> <br> <br>
-
-            <label for="Type">Evolves from:</label>
-            <input type="text" id="evolvesT" name="Evolves">
-
-            <label for="Type">Evolves to:</label>
-            <input type="text" id="evolvesF" name="Evolves"> <br><br>
-
-            <label for="Nickname">Nickname</label>
-            <input type="text" id="nickname" name="nick"><br><br>
-
-            <label for="Birthdate">Birthdate</label>
-            <input type="date" id="birthdate" name="bday"> <br><br>
-
-            <input type="submit">
-
-            <table border="3px">
-                <tr>
-                  <th>National Dex</th>
-                  <th>Generation</th>
-                  <th>Pokemon Name</th>
-                  <th>Image</th>
-                  <th>Type 1</th>
-                  <th>Type 2</th>
-                  <th>Evolves from</th>
-                  <th>Evolves to</th>
-                  <th>Nickname</th>
-                  <th>Birthdate</th>
-                  
-                </tr>
-                <tr>
-                  <td>#0016</td>
-                  <td>Gen IV</td>
-                  <td>Benedict</td>
-                  <td>-</td>
-                  <td>Steel</td>
-                  <td>Dragon</td>
-                  <td>James</td>
-                  <td>Manzano</td>
-                  <td>Big Bad Benedict</td>
-                  <td>08/16/01</td>
-                </tr>
-                <tr>
-                  <td>#0388</td>
-                  <td>Gen IV</td>
-                  <td>Grotle</td>
-                  <td>-</td>
-                  <td colspan="2">Grass</td>
-                  <td>Turtwig</td>
-                  <td>Torterra</td>
-                  <td>Big Tortel</td>
-                  <td>08/17/01</td>
-                </tr>
-                <tr>
-                    <td>#0391</td>
-                    <td>Gen IV</td>
-                    <td>Monfero</td>
-                    <td>-</td>
-                    <td>Fire</td>
-                    <td>Fighting</td>
-                    <td>Chimchar</td>
-                    <td>Infernape</td>
-                    <td>Monkey Man</td>
-                    <td>08/18/01</td>
-                  </tr>
-                  <tr>
-                    <td>#0394</td>
-                    <td>Gen IV</td>
-                    <td>Prinplup</td>
-                    <td>-</td>
-                    <td colspan="2">Water</td>
-                    <td>Piplup</td>
-                    <td>Empoleon</td>
-                    <td>King Pengu</td>
-                    <td>08/19/01</td>
-                  </tr>
-                  <tr>
-                    <td>Centro comercial Moctezuma</td>
-                    <td>Francisco Chang</td>
-                    <td>Mexico</td>
-                    <td>Centro comercial Moctezuma</td>
-                    <td>Francisco Chang</td>
-                    <td>Mexico</td><td>Centro comercial Moctezuma</td>
-                    <td>Francisco Chang</td>
-                    <td>Mexico</td>
-                    <td>Mexico</td>
-                  </tr>
-                  <tr>
-                    <td>Centro comercial Moctezuma</td>
-                    <td>Francisco Chang</td>
-                    <td>Mexico</td>
-                    <td>Centro comercial Moctezuma</td>
-                    <td>Francisco Chang</td>
-                    <td>Mexico</td><td>Centro comercial Moctezuma</td>
-                    <td>Francisco Chang</td>
-                    <td>Mexico</td>
-                    <td>Mexico</td>
-                  </tr>
-                  <tr>
-                    <td>Centro comercial Moctezuma</td>
-                    <td>Francisco Chang</td>
-                    <td>Mexico</td>
-                    <td>Centro comercial Moctezuma</td>
-                    <td>Francisco Chang</td>
-                    <td>Mexico</td><td>Centro comercial Moctezuma</td>
-                    <td>Francisco Chang</td>
-                    <td>Mexico</td>
-                    <td>Mexico</td>
-                  </tr>
-                  <tr>
-                    <td>Centro comercial Moctezuma</td>
-                    <td>Francisco Chang</td>
-                    <td>Mexico</td>
-                    <td>Centro comercial Moctezuma</td>
-                    <td>Francisco Chang</td>
-                    <td>Mexico</td><td>Centro comercial Moctezuma</td>
-                    <td>Francisco Chang</td>
-                    <td>Mexico</td>
-                    <td>Mexico</td>
-                  </tr>
-                  <tr>
-                    <td>Centro comercial Moctezuma</td>
-                    <td>Francisco Chang</td>
-                    <td>Mexico</td>
-                    <td>Centro comercial Moctezuma</td>
-                    <td>Francisco Chang</td>
-                    <td>Mexico</td><td>Centro comercial Moctezuma</td>
-                    <td>Francisco Chang</td>
-                    <td>Mexico</td>
-                    <td>Mexico</td>
-                  </tr>
-                  <tr>
-                    <td>Centro comercial Moctezuma</td>
-                    <td>Francisco Chang</td>
-                    <td>Mexico</td>
-                    <td>Centro comercial Moctezuma</td>
-                    <td>Francisco Chang</td>
-                    <td>Mexico</td><td>Centro comercial Moctezuma</td>
-                    <td>Francisco Chang</td>
-                    <td>Mexico</td>
-                    <td>Mexico</td>
-                  </tr>
-
-
-
-
-
+                <label for="pokedex">Generation 7 </label>
+                <input type="radio"name="gen" id="generation"> </input>
                 
-              </table>
+                <label for="pokedex">Generation 8 </label>
+                <input type="radio"name="gen" id="generation"> </input>
 
+                <label for="pokedex">Generation 9 </label>
+                <input type="radio"name="gen" id="generation"> </input><br><br>
+                
+                <label for="pokemon">  Pokemon Name: </label>
+                <input type="text" name="Pokemon" id="generation"> </input><br><br>
 
+                <label for="image"> Choose image: </label>
+                <input type="file" id="myFile" name="filename"> <br><br>
+                
+                <label for="Type1">Type 1:</label>
+                <input list="type11" id="type1" name="Type1">
+                <datalist id="type11">
+                <option value="Normal"></option>   
+                <option value="Fire"></option>
+                <option value="Water"></option>
+                <option value="Grass"></option>
+                <option value="Electric"></option>
+                <option value="Flying"></option>
+                <option value="Rock"></option>
+                <option value="Ground"></option>
+                <option value="Bug"></option>
+                <option value="Fighting"></option>
+                <option value="Ice"></option>
+                <option value="Poison"></option>
+                <option value="Ghost"></option>
+                <option value="Dark"></option>
+                <option value="Steel"></option>
+                <option value="Psychic"></option>
+                <option value="Fairy"></option>
+                <option value="Dragon"></option>    
+                </datalist>
 
+                <label for="Type2">Type 2:</label>
+                <input list="type22" id="type2" name="Type2">
+                <datalist id="type22">
+                <option value="Normal"></option>   
+                <option value="Fire"></option>
+                <option value="Water"></option>
+                <option value="Grass"></option>
+                <option value="Electric"></option>
+                <option value="Flying"></option>
+                <option value="Rock"></option>
+                <option value="Ground"></option>
+                <option value="Bug"></option>
+                <option value="Fighting"></option>
+                <option value="Ice"></option>
+                <option value="Poison"></option>
+                <option value="Ghost"></option>
+                <option value="Dark"></option>
+                <option value="Steel"></option>
+                <option value="Psychic"></option>
+                <option value="Fairy"></option>
+                <option value="Dragon"></option>    
+                </datalist>
 
+                <label for="Type">Evolves from:</label>
+                <input type="text" id="evolvesT" name="Evolves">
 
+                <label for="Type">Evolves to:</label>
+                <input type="text" id="evolvesF" name="Evolves"> <br><br>
 
+                <label for="Nickname">Nickname</label>
+                <input type="text" id="nickname" name="nick"><br><br>
 
+                <label for="Birthdate">Birthdate</label>
+                <input type="date" id="birthdate" name="bday"> <br><br>
 
+                <input type="submit"><br><br>
 
+                <table border="3px">
+                    <tr>
+                        <th>National Dex</th>
+                        <th>Generation</th>
+                        <th>Pokemon Name</th>
+                        <th>Image</th>
+                        <th>Type 1</th>
+                        <th>Type 2</th>
+                        <th>Evolves from</th>
+                        <th>Evolves to</th>
+                        <th>Nickname</th>
+                        <th>Birthdate</th>
+                    </tr>
+                    
+                    <tr>
+                        <td>#0016</td>
+                        <td>Gen IV</td>
+                        <td>Benedict</td>
+                        <td> <img src="PokemonPortrait.png" alt="PokemonPortrait" height="200px"> </td>
+                        <td bgcolor="FF76CE" colspan="2"> <font color="White"> <p> Psychic</p> </font></td>
+                        <td>James</td>
+                        <td>Manzano</td>
+                        <td>Big Bad Benedict</td>
+                        <td>08/16/01</td>
+                    </tr>
 
+                    <tr>
+                        <td>#0388</td>
+                        <td>Gen IV</td>
+                        <td>Grotle</td>
+                        <td> <img src="Grotle.png" alt="Grotle" height="200px"> </td>
+                        <td bgcolor="0A6847"colspan="2"> <font color="White"> <p> Grass</p> </font></td>
+                        <td>Turtwig</td>
+                        <td>Torterra</td>
+                        <td>Big Tortel</td>
+                        <td>08/17/01</td>
+                    </tr>
 
+                    <tr>
+                        <td>#0391</td>
+                        <td>Gen IV</td>
+                        <td>Monferno</td>
+                        <td><img src="Monferno.png" alt="Monferno" height="200px"> </td>
+                        <td bgcolor="DD761C"> <font color="White"> <p> Fire</p> </font></td>
+                        <td bgcolor="A91D3A"> <font color="White"> <p> Fighting</p> </font></td>
+                        <td>Chimchar</td>
+                        <td>Infernape</td>
+                        <td>Monkey Man</td>
+                        <td>08/18/01</td>
+                    </tr>
 
+                    <tr>
+                        <td>#0394</td>
+                        <td>Gen IV</td>
+                        <td>Prinplup</td>
+                        <td><img src="Prinplup.png" alt="Prinplup" height="200px"> </td>
+                        <td bgcolor="5AB2FF" colspan="2"> <font color="White"> <p> Water</p> </font></td>
+                        <td>Piplup</td>
+                        <td>Empoleon</td>
+                        <td>King Pengu</td>
+                        <td>08/19/01</td>
+                    </tr>
 
+                    <tr>
+                        <td>#0483</td>
+                        <td>Gen IV</td>
+                        <td>Dialga</td>
+                        <td><img src="Dialga.png" alt="Dialga" height="200px"> </td>
+                        <td bgcolor="7AB2B2"> <font color="White"> <p> Steel</p> </font></td>
+                        <td bgcolor="525CEB"> <font color="White"> <p> Dragon</p> </font></td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>Temporal Dragunov</td>
+                        <td>08/20/01</td>
+                    </tr>
 
+                    <tr>
+                        <td>#0484</td>
+                        <td>Gen IV</td>
+                        <td>Palkia</td>
+                        <td><img src="Palkia.png" alt="Palkia" height="200px"> </td>
+                        <td bgcolor="5AB2FF"> <font color="White"> <p> Water</p> </font></td>
+                        <td bgcolor="525CEB"> <font color="White"> <p> Dragon</p> </font></td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>Spatial Godzilla</td>
+                        <td>08/21/01</td>
+                    </tr>
 
+                    <tr>
+                        <td>#0493</td>
+                        <td>Gen IV</td>
+                        <td>Arceus</td>
+                        <td><img src="Arceus.png" alt="Arceus" height="200px"> </td>
+                        <td bgcolor="B5C0D0" colspan="2"> <font color="White"> <p> Normal</p> </font></td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>God</td>
+                        <td>08/22/01</td>
+                    </tr>
 
+                    <tr>
+                        <td>#0643</td>
+                        <td>Gen V</td>
+                        <td>Reshiram</td>
+                        <td><img src="Reshiram.png" alt="Reshiram" height="200px"> </td>
+                        <td bgcolor="525CEB"> <font color="White"> <p> Dragon</p> </font></td>
+                        <td bgcolor="DD761C"> <font color="White"> <p> Fire</p> </font></td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>White Blaze</td>
+                        <td>08/23/01</td>
+                    </tr>
 
+                    <tr>
+                        <td>#0644</td>
+                        <td>Gen V</td>
+                        <td>Zekrom</td>
+                        <td><img src="Zekrom.png" alt="Zekrom" height="200px"> </td>
+                        <td bgcolor="525CEB"> <font color="White"> <p> Dragon</p> </font></td>
+                        <td bgcolor="FDDE55"> <font color="White"> <p> Lightning</p> </font></td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>Black Thunder</td>
+                        <td>08/24/01</td>
+                    </tr>
+
+                    <tr>
+                        <td>#0386</td>
+                        <td>Gen IV</td>
+                        <td>Darkrai</td>
+                        <td><img src="Darkrai.png" alt="Darkrai" height="200px"> </td>
+                        <td bgcolor="31363F" colspan="2"> <font color="White"> <p> Dark</p> </font></td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>Lunar Yokai</td>
+                        <td>08/25/01</td>
+                    </tr>
+                    
+                </table>
             </center>
         </form>
     </body>
-
-
-
-
 </html>
