@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    background-image: url(Pokémon\ bg.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container1{
+    position: absolute;
+    left: 229px;
+    width: 350px;
+    height: 350px;
+    background-image: url(card\ bg.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 5px 6px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.container2{
+    position: absolute;
+    top: 597px;
+    left: 231px;
+    width: 350px;
+    height: 350px;
+    background-image: url(card\ bg.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 5px 6px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.container3{
+    position: absolute;
+    top: 597px;
+    left: 757px;
+    width: 350px;
+    height: 350px;
+    background-image: url(card\ bg.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 5px 6px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.container4{
+    position: absolute;
+    left: 757px;
+    width: 350px;
+    height: 350px;
+    background-image: url(card\ bg.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 5px 6px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.container5{
+    position: absolute;
+    right: 230px;
+    width: 350px;
+    height: 350px;
+    background-image: url(card\ bg.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 5px 6px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.container6{
+    position: absolute;
+    right: 230px;
+    top: 597px;
+    width: 350px;
+    height: 350px;
+    background-image: url(card\ bg.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 5px 6px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.legif{
+    height: 300px;
+    width: 300px;
+    align-items: center;
+}
+
+.zacgif{
+    height: 300px;
+    width: 300px;
+    align-items: center;
+}
+
+.zamgif{
+    height: 300px;
+    width: 300px;
+    align-items: center;
+}
+
+.xergif{
+    height: 300px;
+    width: 300px;
+    align-items: center;
+}
+
+.yvelgif{
+    height: 300px;
+    width: 300px;
+    align-items: center;
+}
+
+.zyggif{
+    height: 300px;
+    width: 300px;
+    align-items: center;
+}
+
+.card img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+.LechonkDescription{
+    background-color: #4F4F4F;
+    height: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    height: 230px;
+    box-shadow: 5px 5px 5px;
+    line-height: 1.3;
+}
+
+.ZacianDescription{
+    background-color: #339FF9;
+    height: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    height: 250px;
+    box-shadow: 5px 5px 5px;
+    line-height: 1.1;
+}
+
+.ZamazentaDescription{
+    background-color: #1D24CA;
+    height: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    height: 250px;
+    box-shadow: 5px 5px 5px;
+    line-height: 1.1;
+}
+
+.XerneasDescription{
+    background-color: #2C74B3;
+    height: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    height: 215px;
+    box-shadow: 5px 5px 5px;
+    line-height: 1.1;
+}
+
+.YveltalDescription{
+    background-color: #A91D3A;
+    height: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    height: 215px;
+    box-shadow: 5px 5px 5px;
+    line-height: 1.2;
+}
+
+.ZygardeDescription{
+    background-color: #65B741;
+    height: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    height: 215px;
+    box-shadow: 5px 5px 5px;
+    line-height: 1.1;
+}
+
+.LechonkDescription .type1{
+    background-color: #C7C8CC;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.ZacianDescription .type1{
+    background-color: #F77AFF;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.ZacianDescription .type2{
+    background-color: #76ABAE;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.ZamazentaDescription .type1{
+    background-color: #ff0000;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.ZamazentaDescription .type2{
+    background-color: #76ABAE;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.XerneasDescription .type1{
+    background-color: #F77AFF;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.YveltalDescription .type1{
+    background-color: #524C42;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.YveltalDescription .type2{
+    background-color: #A0DEFF;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.ZygardeDescription .type1{
+    background-color: #836FFF;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.ZygardeDescription .type2{
+    background-color: #AF8F6F;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.type{
+    display: inline;
+    font-size: small;
+}
+
+.type1{
+    display: inline;
+}
+
+.type2{
+    display: inline;
+}
+
+h1{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    font-size: x-large;
+}
+
+h3{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    font-size: medium;
+}
+
+p{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    font-size: x-small;
+    text-align: center;
+
+}
+
+button{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.buttons .add{
+    display: inline;
+    background-color: green;
+    border-radius: 20px;
+    padding: 10px 10px;
+    border: none;
+    font-size: x-small;
+    box-shadow: 3px 4px 4px;
+    transition: 0.5s;
+}
+
+.buttons .add:hover{
+    display: inline;
+    background-color: darkgreen;
+    border-radius: 20px;
+    padding: 10px 10px;
+    border: none;
+    font-size: x-small;
+    box-shadow: 3px 4px 4px;
+}
+
+.buttons .del{
+    display: inline;
+    background-color: red;
+    border-radius: 20px;
+    margin: 10px 5px;
+    padding: 10px 10px;
+    border: none;
+    font-size: x-small;
+    box-shadow: 3px 4px 4px;
+    transition: 0.5s;
+}
+
+.buttons .del:hover{
+    display: inline;
+    background-color: darkred;
+    border-radius: 20px;
+    margin: 10px 5px;
+    padding: 10px 10px;
+    border: none;
+    font-size: x-small;
+    box-shadow: 3px 4px 4px;
+}
