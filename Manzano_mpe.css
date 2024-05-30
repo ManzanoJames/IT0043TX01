@@ -1,0 +1,209 @@
+body{
+    background-image: url(PokeballBackground.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat, repeat;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    display: grid;
+    flex-wrap: wrap;
+    flex: 1 0 20%;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 20px;
+    padding: 50px;
+    margin: 12px;
+    justify-items: center;
+    align-items: center;
+}
+
+.PokeCard1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #fcff00;
+    
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+.PokeCard2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #8600c9;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+.PokeCard3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #196aaa;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+.PokeCard4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #d3a8b2;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+.PokeCard5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #995828;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+.PokeCard6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #fbfcd5;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+.PokeCard7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #2687d4;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+.PokeCard8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #a97a3c;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+.PokeCard9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: 	#fef260;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+.PokeCard10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #f18024;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+.PokeCard11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: 	#6ad639;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+.PokeCard12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #305b82;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
