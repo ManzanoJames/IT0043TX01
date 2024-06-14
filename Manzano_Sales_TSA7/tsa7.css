@@ -248,9 +248,6 @@ nav a:hover {
     margin-left: 300px;
   }
 
-  
-  
-
   .NewsDetails {
     display: flex;
     align-items: center;
@@ -264,9 +261,49 @@ nav a:hover {
   }
 
   .Agent {
-    display: block;
-    margin-left: 500px;
+    margin-left: 200px;
     grid-column: 1/2;
     grid-row: 4/4;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .Reyna{
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .Omen{
+    grid-column: 2;
+    grid-row: 3;
+  }
+
+  .Breach {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .Sova {
+    grid-column: 1;
+    grid-row: 4;
+  }
+
+  .Skye {
+    grid-column: 2;
+    grid-row: 4;
+  }
+
+  .Viper {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .Jett {
+    grid-column: 1;
+    grid-row: 6;
+  }
+
+  .Phoenix {
+    grid-column: 2;
+    grid-row: 6;
   }
 }
