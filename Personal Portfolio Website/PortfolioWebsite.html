@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Portfolio</title>
+    <link rel="stylesheet" href="PortfolioWebsite.css"/>
+    <link rel="stylesheet" href="MediaQueries.css"/>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">James Manzano</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">James Manzano</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="cropped_image.png" alt="PortfolioPic">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">James Manzano</h1>
+            <p class="section__text__p2">Aspiring Game Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open()">Download CV</button> <!--LAGYAN NG RESUME, WAG KALIMUTAN PLS-->
+                <button class="btn btn-color-1" onclick="location.href='#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container"> 
+                <img src="github.png" alt="GithubProfile" class="icon github-icon" onclick="location.href='https://github.com/ManzanoJames/IT0043TX01'"/>
+                <img src="gmail-logo-240.png" alt="EmailProfile" class="icon email-icon" onclick="location.href='https://mail.google.com/mail/u/0/#inbox'"/>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="AboutMe2.1.png" alt="AboutMePic" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="experience.png" alt="experience-icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>Begginner level<br>Coding</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="education.png" alt="education-icon" class="icon">
+                        <h3>Education</h3>
+                        <p>College of San Benildo - Rizal<br>FEU High School</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo soluta perferendis nostrum harum? Aliquid quidem ipsam vitae obcaecati! Mollitia, accusamus eligendi pariatur incidunt totam veritatis nisi doloremque. Consequatur libero ea cum laboriosam, nesciunt iusto aliquam expedita, sequi iure repellat explicabo magni in tempore ratione quaerat saepe pariatur ipsa aspernatur incidunt!</p>
+                </div>
+            </div>
+        </div>
+        <img src="arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#experience'"/>
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Personal Skills</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Communication</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Dedication</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Willingness</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Critical Thinking</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Coding Skills</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Begginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Begginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Begginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>C++</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#projects'"/>
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="PokemonProject.png" alt="Pokemon Work" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project One</h2>
+                <div class="btn-container">
+                    <button class="btn-color-2 project btn" onclick="location.href='https://manzanojames.github.io/IT0043TX01/Manzano_Sales_TSA5/Manzano_Sales_TSA5.html'">
+                        Live Github Demo
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="ApexProject.png" alt="Apex Work" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project Two</h2>
+                <div class="btn-container">
+                    <button class="btn-color-2 project btn" onclick="location.href='https://manzanojames.github.io/IT0043TX01/Manzano_Sales_TSA6/tsa6.html'">
+                        Live Github Demo
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="ValorantProject.png" alt="Valorant Work" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project Three</h2>
+                <div class="btn-container">
+                    <button class="btn-color-2 project btn" onclick="location.href='https://manzanojames.github.io/IT0043TX01/Manzano_Sales_TSA7/tsa7.html'">
+                        Live Github Demo
+                    </button>
+                </div></div>
+            </div>
+        </div>
+        <img src="arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#contact'"/>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get In Touch With Me</p>
+        <h1 class="title">Contact Me Through My Other Socials!</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="facebook-circle-logo-240.png" alt="facebook icon" class="icon contact-icon">
+                <p><a onclick="location.href='https://www.facebook.com/jamesbenedict.manzano'">Facebook/James Benedict R. Manzano</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="twitter-logo-240.png" alt="twitter icon" class="icon contact-icon">
+                <p><a onclick="location.href='https://x.com/ManzanoJames_'">Twitter/ManzanoJames_</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="instagram-alt-logo-240.png" alt="instagram icon" class="icon contact-icon">
+                <p><a onclick="location.href='https://www.instagram.com/manzanojames_/'">Instagram/manzanojames_</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 James Manzano. All Rights Reserved.</p>
+    </footer>
+    <script src="PortfolioWebsite.js"></script>
+</body>
+</html>
