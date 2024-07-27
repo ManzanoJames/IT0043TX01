@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J's Personal Portfolio Website</title>
+    <link rel="stylesheet" href="PersonalPortfolioWebsiteStyles.css">
+    <script src="PersonalPortfolioWebsiteScript.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav id="NavigationBar">
+            <div class="Logo">J's Portfolio</div>
+            <div>
+            <ul class="NavigationLinks">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Experience&Education">Experience & Education</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+            </div>
+        </nav>
+        <nav id="HamburgerNavigation">
+            <div class="Logo">J's Portfolio</div>
+            <div class="HamburgerMenu">
+            <div class="HamburgerIcon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        <div class="MenuLinks">
+            <li><a href="#Home" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#About" onclick="toggleMenu()">About</a></li>
+            <li><a href="#Experience&Education" onclick="toggleMenu()">Exp & Educ</a></li>
+            <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+        </div>
+        </nav>
+    </header>
+
+    <main id="Home">
+        <section class="LandingPage">
+            <div class="LandingPageImage">
+                <img src="LandingPageImage.png" alt="Landing Page Image">
+            </div>
+            <div class="LandingPageContent">
+                <h4>Hello, I am</h4>
+                <h1>James Benedict R. Manzano!</h1>
+                <p>Hello, stranger! Welcome to my personal portfolio website. 
+                   I'm an aspiring game developer with a passion for everything videogames.
+                   Get in touch with me, and we'll start collaborating!
+                </p>
+                <div class="SocMed">
+                    <a href="https://www.facebook.com/jamesbenedict.manzano"><img src="FacebookLogo.png" alt="Facebook"></a>
+                    <a href="https://x.com/ManzanoJames_"><img src="TwitterLogo.png" alt="Twitter"></a>
+                    <a href="https://www.instagram.com/manzanojames_/"><img src="InstagramLogo.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <main id="About">
+        <section class="AboutPage">
+            <h2>About Me</h2>
+            <div class="AboutPageContent">
+                <div class="AboutPageDetails">
+                    <p>Hello and welcome to my very own portfolio website! On whichever means you have made your way here,
+                        I am sure that after viewing this very website, you will be captivated with what I can offer.
+                        Let me start by introducing myself again, I am James, an aspiring game developer. Through a passion and desire for the craft of gaming, 
+                        I took up Game Development because games are such a big part of my childhood and who I am as a person today!
+                        Through sheer dedication and faith on myself, I push through any challenges in life to achieve the dreams my younger version would be proud of today. 
+                    </p>
+                </div>
+                <div class="AboutPageImage">
+                    <img src="AboutPageImage.png" alt="About Page Image">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <main id="Experience&Education">
+        <section class="ExpEducPage">
+            <h2>My Experience & Education</h2>
+            <div class="ExpEducPageContent">
+                <div class="ExpEducPageDetails">
+                    <p>I view myself as a student of the craft as I am eager to learn anything and everything
+                        that will further my studies and my future. Finishing my Junior High back in 2018 at the
+                        College of San Benildo - Rizal in Antipolo, and finishing my Senior High and graduating back in 2020 at FEU,
+                        I am now continuing my studies at FEU's Institute of Technology after a few years of hiatus.
+                        As a student who is a sponge for knowledge, I am ready to learn more information that about my desired course!
+                        Coding is no easy task at all, but after a year of experience, I would describe myself as having begginner to intermediate
+                        level in languages like C++, HTML, CSS, and JavaScript. Being a student, individuality isn't enough to take me far in this journey,
+                        so that is why I have practiced essential personal skills that would benefit in group works with peers like having good listening skills,
+                        dedication to a task, willingness to complete a requirement, and critical thinking for complex problems.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <main id="Projects">
+        <section class="ProjectsPage">
+            <h2>My Projects</h2>
+            <div class="ProjectsPageContent">
+                <div class="GithubWebsites">
+                    <a href="https://manzanojames.github.io/IT0043TX01/Manzano_Sales_TSA6/tsa6.html"><img src="ApexProject.png" alt="Apex Website"></a>
+                    <a href="https://manzanojames.github.io/IT0043TX01/Manzano_Sales_TSA7/tsa7.html"><img src="ValorantProject.png" alt="Valorant Website"></a>
+                    <a href="https://manzanojames.github.io/IT0043TX01/Manzano_Sales_TSA5/Manzano_Sales_TSA5.html"><img src="PokemonProject.png" alt="Pokemon Website"></a>
+                    <p>Above are some of the recent works me and my partner created over the course of the semester in our Web Design class,
+                       if you wish to visit our created website, click on the image to head directly to the website and see clearly our work!
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <main id="Contact">
+        <section class="ContactPage">
+            <h2>Contact information</h2>
+            <div class="ContactPageContent">
+                <div class="ContactPageContainer">
+                    <img src="GmailLogo.png" alt="My Email Address">
+                    <p>jamesbenedictmanzano@gmail.com</p>
+                </div>
+                <div class="ContactPageContainer">
+                    <img src="PhoneLogo.png" alt="My Mobile Phone Number">
+                    <p>0906-340-0287</p>
+                </div>
+                <div class="ContactPageContainer">
+                    <img src="HouseLogo.png" alt="My Physical Address">
+                    <p>#9 Alexander St. Christine Village, Dela Paz, Pasig City</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <nav id="NavigationBarFooter">
+            <div>
+            <ul class="NavigationLinks">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Experience&Education">Experience & Education</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 James Manzano. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
